@@ -1,0 +1,20 @@
+{
+    "benchmarks.GstSuite.mem_transcode_ogg": {
+        "code": "def mem_transcode_ogg(self):\n    self.transcode_ogg()\n", 
+        "name": "benchmarks.GstSuite.mem_transcode_ogg", 
+        "timeout": 60.0, 
+        "type": "memory", 
+        "unit": "bytes"
+    }, 
+    "benchmarks.GstSuite.time_transcode_ogg": {
+        "code": "def time_transcode_ogg(self):\n    self.transcode_ogg()\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.GstSuite.time_transcode_ogg", 
+        "number": 0, 
+        "repeat": 3, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "version": 1
+}
