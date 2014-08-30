@@ -16,6 +16,10 @@ sudo apt-get install python-psutil python-numpy python-pip
 sudo pip install conda
 sudo conda init
 sudo conda update -q conda
+git clone https://github.com/spacetelescope/asv.git
+cd asv
+sudo python setup.py install
+cd ..
 git clone https://github.com/Parisson/TimeSide_benchmark.git
 cd TimeSide_benchmark
 asv machine
