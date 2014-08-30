@@ -1,0 +1,27 @@
+{
+    "commit_hash": "7d506fd79041ca66de400049bea4b18b22f8c73f", 
+    "date": 1405073036000, 
+    "params": {
+        "arch": "x86_64", 
+        "cpu": "Intel(R) Xeon(R) CPU           X3360  @ 2.83GHz", 
+        "machine": "jimi.parisson.com", 
+        "matplotlib": "1.1.1", 
+        "numpy": "1.6", 
+        "os": "Linux 3.10.23-xxxx-std-ipv6-64-hz1000", 
+        "python": "2.7", 
+        "ram": 8160620, 
+        "scipy": "0.11"
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "matplotlib": "1.1.1", 
+        "numpy": "1.6", 
+        "scipy": "0.11"
+    }, 
+    "results": {
+        "benchmarks.GstSuite.mem_transcode_ogg": 0, 
+        "benchmarks.GstSuite.time_transcode_ogg": 10.140717006000001
+    }, 
+    "version": 1
+}
