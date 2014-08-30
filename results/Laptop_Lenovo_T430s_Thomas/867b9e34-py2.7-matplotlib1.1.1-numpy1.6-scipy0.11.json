@@ -1,6 +1,6 @@
 {
-    "commit_hash": "7d506fd79041ca66de400049bea4b18b22f8c73f", 
-    "date": 1405073036000, 
+    "commit_hash": "867b9e34ed3a3d98425be4968cf9090e2ed48ad0", 
+    "date": 1400505468000, 
     "params": {
         "arch": "x86_64", 
         "cpu": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz", 
@@ -21,7 +21,7 @@
     }, 
     "results": {
         "benchmarks.GstSuite.mem_transcode_ogg": 0, 
-        "benchmarks.GstSuite.time_transcode_ogg": null
+        "benchmarks.GstSuite.time_transcode_ogg": 7.558008851
     }, 
     "version": 1
 }
