@@ -12,7 +12,7 @@ Install and run
 ----------------
 
 ```
-sudo apt-get install psutil python-numpy python-pip
+sudo apt-get install python-psutil python-numpy python-pip
 sudo pip install conda
 sudo conda init
 sudo conda update -q conda
