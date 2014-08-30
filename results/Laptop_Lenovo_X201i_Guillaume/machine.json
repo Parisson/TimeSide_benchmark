@@ -1,0 +1,8 @@
+{
+    "arch": "x86_64", 
+    "cpu": "Intel(R) Core(TM) i3 CPU       M 370  @ 2.40GHz", 
+    "machine": "Laptop_Lenovo_X201i_Guillaume", 
+    "os": "Linux 3.14-0.bpo.1-amd64", 
+    "ram": 7989316, 
+    "version": 1
+}
