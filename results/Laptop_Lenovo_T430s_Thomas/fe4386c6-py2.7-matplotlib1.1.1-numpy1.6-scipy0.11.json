@@ -21,7 +21,7 @@
     }, 
     "results": {
         "benchmarks.GstSuite.mem_transcode_ogg": 0, 
-        "benchmarks.GstSuite.time_transcode_ogg": 7.541681529000002
+        "benchmarks.GstSuite.time_transcode_ogg": 7.519007946999999
     }, 
     "version": 1
 }
