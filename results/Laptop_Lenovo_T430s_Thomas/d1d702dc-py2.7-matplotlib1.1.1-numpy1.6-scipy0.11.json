@@ -20,8 +20,17 @@
         "scipy": "0.11"
     }, 
     "results": {
+        "benchmarks.AnalyzerSuite.time_irit_speech_4hz": 2.1228592110000006, 
+        "benchmarks.AnalyzerSuite.time_irit_speech_entropy": 2.1621448810000006, 
+        "benchmarks.AnalyzerSuite.time_level": 2.120062899999999, 
+        "benchmarks.AnalyzerSuite.time_mean_dc_shift": 2.1201146600000005, 
+        "benchmarks.AnalyzerSuite.time_odf": 2.1107579879999996, 
+        "benchmarks.AnalyzerSuite.time_spectrogram_analyzer": 2.14714061, 
+        "benchmarks.AnalyzerSuite.time_vamp_simple_host": 2.1259857559999995, 
+        "benchmarks.AnalyzerSuite.time_waveform_analyzer": 2.117318418, 
         "benchmarks.GstSuite.mem_transcode_ogg": 0, 
-        "benchmarks.GstSuite.time_transcode_ogg": 7.542750878
+        "benchmarks.GstSuite.time_transcode_mp3": 8.180461553, 
+        "benchmarks.GstSuite.time_transcode_ogg": 7.511843796999997
     }, 
     "version": 1
 }
