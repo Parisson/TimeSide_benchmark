@@ -1,0 +1,8 @@
+{
+    "arch": "x86_64", 
+    "cpu": "Intel(R) Xeon(R) CPU           X3360  @ 2.83GHz", 
+    "machine": "jimi.parisson.com", 
+    "os": "Linux 3.10.23-xxxx-std-ipv6-64-hz1000", 
+    "ram": 8160620, 
+    "version": 1
+}

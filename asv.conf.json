@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "project": "TimeSide",
+    "project_url": "http://files.parisson.com/timeside/doc/",
+    "repo": "https://github.com/yomguy/TimeSide.git",
+    "show_commit_url": "https://github.com/yomguy/TimeSide/commit/",
+    "pythons": ["2.7"],
+    "matrix":
+    {
+	"numpy": ["1.6"],
+	"scipy": ["0.11"],
+	"matplotlib": ["1.1.1"]
+    }
+}

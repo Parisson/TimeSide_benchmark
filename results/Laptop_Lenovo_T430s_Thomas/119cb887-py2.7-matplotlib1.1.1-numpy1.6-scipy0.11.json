@@ -1,0 +1,34 @@
+{
+    "commit_hash": "119cb8870f9fd7e00ccf3b320d102239ac6e8163", 
+    "date": 1400505452000, 
+    "params": {
+        "arch": "x86_64", 
+        "cpu": "Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz", 
+        "machine": "Laptop_Lenovo_T430s_Thomas", 
+        "matplotlib": "1.1.1", 
+        "numpy": "1.6", 
+        "os": "Linux 3.2.0-4-amd64", 
+        "python": "2.7", 
+        "ram": 7875272, 
+        "scipy": "0.11"
+    }, 
+    "profiles": {}, 
+    "python": "2.7", 
+    "requirements": {
+        "matplotlib": "1.1.1", 
+        "numpy": "1.6", 
+        "scipy": "0.11"
+    }, 
+    "results": {
+        "benchmarks.AnalyzerSuite.time_IRITSpeech4Hz": 3.3936346460000006, 
+        "benchmarks.AnalyzerSuite.time_IRITSpeechEntropy": 4.501389234000001, 
+        "benchmarks.AnalyzerSuite.time_Level": 2.362862745, 
+        "benchmarks.AnalyzerSuite.time_MeanDCShift": 2.1212967240000005, 
+        "benchmarks.AnalyzerSuite.time_OnsetDetectionFunction": 9.331472869999999, 
+        "benchmarks.AnalyzerSuite.time_Spectrogram": 4.468073755000001, 
+        "benchmarks.AnalyzerSuite.time_Waveform": 1.9904002779999992, 
+        "benchmarks.GstSuite.time_transcode_mp3": 8.283519066999999, 
+        "benchmarks.GstSuite.time_transcode_ogg": 7.547214012000001
+    }, 
+    "version": 1
+}
