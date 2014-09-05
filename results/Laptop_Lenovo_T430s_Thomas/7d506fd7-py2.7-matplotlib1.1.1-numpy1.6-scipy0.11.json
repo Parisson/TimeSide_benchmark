@@ -20,17 +20,15 @@
         "scipy": "0.11"
     }, 
     "results": {
-        "benchmarks.AnalyzerSuite.time_irit_speech_4hz": 2.4487988509999994, 
-        "benchmarks.AnalyzerSuite.time_irit_speech_entropy": 2.3728108310000007, 
-        "benchmarks.AnalyzerSuite.time_level": 2.483836942, 
-        "benchmarks.AnalyzerSuite.time_mean_dc_shift": null, 
-        "benchmarks.AnalyzerSuite.time_odf": 2.5273794560000002, 
-        "benchmarks.AnalyzerSuite.time_spectrogram_analyzer": 2.405824707, 
-        "benchmarks.AnalyzerSuite.time_vamp_simple_host": 2.513078994, 
-        "benchmarks.AnalyzerSuite.time_waveform_analyzer": 2.3439379910000007, 
-        "benchmarks.GstSuite.mem_transcode_ogg": 0, 
-        "benchmarks.GstSuite.time_transcode_mp3": null, 
-        "benchmarks.GstSuite.time_transcode_ogg": 7.7079090080000014
+        "benchmarks.AnalyzerSuite.time_IRITSpeech4Hz": 3.3447383969999995, 
+        "benchmarks.AnalyzerSuite.time_IRITSpeechEntropy": 4.454931707999999, 
+        "benchmarks.AnalyzerSuite.time_Level": 2.3762402199999997, 
+        "benchmarks.AnalyzerSuite.time_MeanDCShift": 2.096678193999999, 
+        "benchmarks.AnalyzerSuite.time_OnsetDetectionFunction": 9.130024407, 
+        "benchmarks.AnalyzerSuite.time_Spectrogram": 4.59752907, 
+        "benchmarks.AnalyzerSuite.time_Waveform": 1.9701013790000008, 
+        "benchmarks.GstSuite.time_transcode_mp3": 8.184510176, 
+        "benchmarks.GstSuite.time_transcode_ogg": 7.4453700959999995
     }, 
     "version": 1
 }

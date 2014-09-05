@@ -1,93 +1,76 @@
 {
-    "benchmarks.AnalyzerSuite.time_irit_speech_4hz": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_IRITSpeech4Hz": {
+        "code": "def time_IRITSpeech4Hz(self):\n    self._benchmark_analyzer('irit_speech_4hz', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_irit_speech_4hz", 
+        "name": "benchmarks.AnalyzerSuite.time_IRITSpeech4Hz", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_irit_speech_entropy": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_IRITSpeechEntropy": {
+        "code": "def time_IRITSpeechEntropy(self):\n    self._benchmark_analyzer('irit_speech_entropy', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_irit_speech_entropy", 
+        "name": "benchmarks.AnalyzerSuite.time_IRITSpeechEntropy", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_level": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_Level": {
+        "code": "def time_Level(self):\n    self._benchmark_analyzer('level', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_level", 
+        "name": "benchmarks.AnalyzerSuite.time_Level", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_mean_dc_shift": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_MeanDCShift": {
+        "code": "def time_MeanDCShift(self):\n    self._benchmark_analyzer('mean_dc_shift', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_mean_dc_shift", 
+        "name": "benchmarks.AnalyzerSuite.time_MeanDCShift", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_odf": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_OnsetDetectionFunction": {
+        "code": "def time_OnsetDetectionFunction(self):\n    self._benchmark_analyzer('odf', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_odf", 
+        "name": "benchmarks.AnalyzerSuite.time_OnsetDetectionFunction", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_spectrogram_analyzer": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_Spectrogram": {
+        "code": "def time_Spectrogram(self):\n    self._benchmark_analyzer('spectrogram_analyzer', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_spectrogram_analyzer", 
+        "name": "benchmarks.AnalyzerSuite.time_Spectrogram", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
     }, 
-    "benchmarks.AnalyzerSuite.time_vamp_simple_host": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
+    "benchmarks.AnalyzerSuite.time_Waveform": {
+        "code": "def time_Waveform(self):\n    self._benchmark_analyzer('waveform_analyzer', benchmark_type='time')\n", 
         "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_vamp_simple_host", 
+        "name": "benchmarks.AnalyzerSuite.time_Waveform", 
         "number": 0, 
         "repeat": 3, 
         "timeout": 60.0, 
         "type": "time", 
         "unit": "seconds"
-    }, 
-    "benchmarks.AnalyzerSuite.time_waveform_analyzer": {
-        "code": "test_func = lambda self: self._benchmark_analyzer(analyzer_cls)\n", 
-        "goal_time": 2.0, 
-        "name": "benchmarks.AnalyzerSuite.time_waveform_analyzer", 
-        "number": 0, 
-        "repeat": 3, 
-        "timeout": 60.0, 
-        "type": "time", 
-        "unit": "seconds"
-    }, 
-    "benchmarks.GstSuite.mem_transcode_ogg": {
-        "code": "def mem_transcode_ogg(self):\n    self.transcode_ogg()\n", 
-        "name": "benchmarks.GstSuite.mem_transcode_ogg", 
-        "timeout": 60.0, 
-        "type": "memory", 
-        "unit": "bytes"
     }, 
     "benchmarks.GstSuite.time_transcode_mp3": {
-        "code": "def time_transcode_mp3(self):\n    self.transcode_mp3()\n", 
+        "code": "def time_transcode_mp3(self):\n    pipe = self.transcode_mp3()\n    pipe.run()\n", 
         "goal_time": 2.0, 
         "name": "benchmarks.GstSuite.time_transcode_mp3", 
         "number": 0, 
@@ -97,7 +80,7 @@
         "unit": "seconds"
     }, 
     "benchmarks.GstSuite.time_transcode_ogg": {
-        "code": "def time_transcode_ogg(self):\n    self.transcode_ogg()\n", 
+        "code": "def time_transcode_ogg(self):\n    pipe = self.transcode_ogg()\n    pipe.run()\n", 
         "goal_time": 2.0, 
         "name": "benchmarks.GstSuite.time_transcode_ogg", 
         "number": 0, 

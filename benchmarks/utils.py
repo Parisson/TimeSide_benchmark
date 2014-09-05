@@ -1,7 +1,7 @@
 import os
 import sys
 from distutils.sysconfig import get_python_lib
-
+import urllib
 
 def link_gst_wrapper():
 
@@ -23,3 +23,11 @@ def link_gst_wrapper():
             dest = os.path.join(dest_dir, package)
             if not os.path.exists(dest) and os.path.exists(src):
                 os.symlink(src, dest)
+
+
+def get_data_samples(folder):
+    source_url = 'http://parisson.telemeta.org/archives/items/download/PRS_07_01_02.mp3'
+    source_file = os.path.join(folder, os.path.basename(source_url))
+    if not os.path.exists(source_file):
+        urllib.urlretrieve(url=source_url, filename=source_file)
+    return source_file
